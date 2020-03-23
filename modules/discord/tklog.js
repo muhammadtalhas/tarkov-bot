@@ -27,16 +27,3 @@ module.exports = {
 
     },
 };
-
-
-
-/*
-[
-  {
-    _id: 5e76efb310aa78a3bd45319c,
-    user: 'muhammadtalhas',
-    incidents: [ [Object] ]
-  }
-]
-
- */
