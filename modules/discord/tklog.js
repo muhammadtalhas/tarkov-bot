@@ -10,7 +10,9 @@ module.exports = {
         connector.mongoConnector.userLog(db, {user: msg.mentions.users.first().username}, (err, result)=>{
             if(err)
                 console.log(`something went wrong with tklog command: ${err}`);
-
+            if(!result) {
+                msg.reply("Nothing to report")
+            }
             let fields = [];
             result.incidents.forEach(incident => fields.push({name: incident.user, value: `${incident.note ? incident.note: '-'} @ ${new Date(incident.time).getMonth()}/${new Date(incident.time).getDate()}/${new Date(incident.time).getFullYear()} ${new Date(incident.time).getHours()}:${new Date(incident.time).getMinutes()}`, inline:true}));
 
