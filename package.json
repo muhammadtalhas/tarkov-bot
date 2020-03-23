@@ -1,0 +1,35 @@
+{
+  "name": "tarkov-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "core-util-is": "^1.0.2",
+    "bl": "^2.2.0",
+    "inherits": "^2.0.4",
+    "denque": "^1.4.1",
+    "bson": "^1.1.3",
+    "isarray": "^1.0.0",
+    "memory-pager": "^1.5.0",
+    "process-nextick-args": "^2.0.1",
+    "resolve-from": "^2.0.0",
+    "require_optional": "^1.0.1",
+    "safe-buffer": "^5.1.2",
+    "readable-stream": "^2.3.7",
+    "saslprep": "^1.0.3",
+    "semver": "^5.7.1",
+    "sparse-bitfield": "^3.0.3",
+    "util-deprecate": "^1.0.2",
+    "string_decoder": "^1.1.1",
+    "mongodb": "^3.5.5",
+    "discord.js": "^12.0.2",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Talha Muhammad",
+  "license": "ISC"
+}
